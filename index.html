@@ -7,7 +7,7 @@
 
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;900&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
 
@@ -84,7 +84,7 @@ html, body {
   <div class="absolute inset-0 z-0">
     <img id="cover-bg" class="w-full h-full object-cover blur-lg scale-110" src="" alt="">
     <style>#cover-bg {
-  filter: blur(4px); /* change 8px to whatever you want */
+  filter: blur(6px); /* change 8px to whatever you want */
 }</style>
   </div>
 
@@ -100,6 +100,9 @@ html, body {
     <main class="flex-grow flex items-center justify-center px-4 overflow-hidden mb-24">  <!-- Added mb-24 to move footer higher -->
       <div class="text-center fade-in">
         <h1 id="daily-message" class="text-3xl md:text-4xl font-light leading-relaxed text-white drop-shadow-lg" dir="rtl"></h1>
+        <style> #daily-message {
+            font-weight: 600; /* bold */
+        }</style>
       </div>
     </main>
 
