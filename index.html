@@ -83,7 +83,11 @@ html, body {
   <!-- Background -->
   <div class="absolute inset-0 z-0">
     <img id="cover-bg" class="w-full h-full object-cover blur-lg scale-110" src="" alt="">
+    <style>#cover-bg {
+  filter: blur(4px); /* change 8px to whatever you want */
+}</style>
   </div>
+
 
   <!-- Particles -->
   <div id="particles-container" class="absolute inset-0 z-10 overflow-hidden"></div>
@@ -140,7 +144,7 @@ const songs=[
     {song:"songs/sayyestoheaven.mp3", cover:"images/2.jpg", message:"In the storm I stay clear cuz .. I've got my eye on you", title:"Say yes to heaven", artist:"Lana del rey"},
     {song:"songs/thenightwemet.mp3", cover:"images/1.jpg", message:"When the night was full of terrors .. And your eyes were filled with tears .. When you had not touched me yet .. Oh, take me back to the night we met", title:"The night we met", artist:"Lord Huron"},
     {song:"songs/youngandbeautiful.mp3", cover:"images/3.jpg", message:"WAHH beyna!!", title:"Young and beautiful", artist:"Lana del rey"},
-    {song:"songs/megustastu", cover:"images/6.jpg", message:"Me gusta soñar .. me gustas tú", title:"Me gustas tu", artist:"Manu chao"},
+    {song:"songs/megustastu", cover:"images/4.jpg", message:"Me gusta soñar .. me gustas tú", title:"Me gustas tu", artist:"Manu chao"},
     {song:"songs/elhalelsa3b.mp3", cover:"images/3.jpg", message:"لا تتردد في غرامي .. يا تجيني حب .. يا تودعني راحل", title:"الحل الصعب", artist:"ali abdellah"},
     {song:"songs/lawro7ti.mp3", cover:"images/5.jpg", message:"انا ما بنسى .. قلب الغالي بيبقى قبالي لو مهما يغيب", title:"لو رحتي بضلي بقلبي", artist:"Ouadi' Omar"},
     {song:"songs/absher.mp3", cover:"images/1.jpg", message:"ابشر من عيوني الثنتين .. مثلك تلبى مطاليبه .. والقلب ما يسكنه شخصين .. واحد و يكفي تعذيبه", title:"ابشر من عيوني", artist:"ali abdellah"},
